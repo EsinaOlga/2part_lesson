@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 import static java.util.Locale.filter;
 
@@ -20,8 +17,9 @@ Scanner scanner =new Scanner(System.in);
       t.add("Бобслей");
       t.add("Регион");
       t.add("Околка");
-      System.out.println(s);
-      System.out.println(t);
+      //System.out.println(s);
+      // System.out.println(Arrays.toString(s.toArray()));
+      //System.out.println(t);
       // boolean Anagrammatrue1 = new Anagrammatrue.IstrueAnagrama(s, t);
        String ss = String.join(", ", s);
        String tt = String.join(", ", t);
@@ -38,9 +36,8 @@ Scanner scanner =new Scanner(System.in);
        {boolean result = Anagrammatrue.IstrueAnagrama(Collections.singletonList(ss), Collections.singletonList(tt));
             //boolean result = Anagrammatrue.IstrueAnagrama(Collections.singletonList(ss.getChars(i)), Collections.singletonList(tt.getChars(i)));
 
-           System.out.println("\"" + s.get(i) + "\" и \"" + t.get(i) + "\" - анаграммы" + result);
+           System.out.println("\"" + s.get(i) + "\" и \"" + t.get(i) + "\" - анаграммы");
        }
 
-      // System.out.println(Anagrammatrue1);
 }
 }

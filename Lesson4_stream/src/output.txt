@@ -1,0 +1,10 @@
+a123me|Mercedes|White|0|8300.000
+b873of|Volga|Black|0|673.000
+w487mn|Lexus|Grey|76000|900.000
+p987hj|Volga|Red|610|704.340
+c987ss|Toyota|White|254000|761.000
+o983op|Toyota|Black|698000|740.000
+p146op|BMW|White|271000|850.000
+u893ii|Toyota|Purple|210900|440.000
+l097df|Toyota|Black|108000|780.000
+y876wd|Toyota|Black|160000|1000.000

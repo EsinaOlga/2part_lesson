@@ -5,16 +5,10 @@ import java.util.Arrays;
 
 public class Anagrammatrue {
 
-
-
     public static boolean IstrueAnagrama (List<String> s, List<String> t) {
-        //StringBuilder s_IstrueAnagrama = new StringBuilder();
-       // StringBuilder t_IstrueAnagrama = new StringBuilder();
 
-
-        String s_IstrueAnagrama = Arrays.toString(s.toArray());
-        String t_IstrueAnagrama= Arrays.toString(t.toArray());
-
+         String s_IstrueAnagrama =String.join("", s).toLowerCase().replaceAll("\\s+", "");// Arrays.toString(s.toArray());
+        String t_IstrueAnagrama=String.join("", t).toLowerCase().replaceAll("\\s+", ""); //Arrays.toString(t.toArray());
 
         if (s_IstrueAnagrama.length()!=t_IstrueAnagrama.length()) {
             return false;}

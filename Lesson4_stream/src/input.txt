@@ -1,0 +1,13 @@
+Авто в базе
+
+Cars{number_car='a123me', model='Mercedes', color='White', probeg=0, price=8300.0}
+
+Cars{number_car='b873of', model='Volga', color='Black', probeg=0, price=673.0}
+
+Cars{number_car='w487mn', model='Lexus', color='Grey', probeg=76000, price=900.0}
+
+Cars{number_car='p987hj', model='Volga', color='Red', probeg=610, price=704.34}
+
+Cars{number_car='c987ss', model='Toyota', color='White', probeg=254000, price=761.0}
+
+Cars{number_car='o983op', model='Toyota', color='Black', probeg=698000, pric
